@@ -1,0 +1,1 @@
+You need open two terminals and use 1: npm run dew; 2: npm start and enjoy this lovely site!
