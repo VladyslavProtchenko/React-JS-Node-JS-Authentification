@@ -25,11 +25,11 @@ const RegistrationForm = () => {
         console.log('status work');
     }
 
-    const [email,setEmail] = useState('vlad@mail.com');
-    const [password,setPassword] = useState('vlad');
-    const [firstName,setFirstName] = useState('vlad');
-    const [lastName,setLastName] = useState('vlad');
-    const [userName,setUserName] = useState('vlad');
+    const [email,setEmail] = useState('');
+    const [password,setPassword] = useState('');
+    const [firstName,setFirstName] = useState('');
+    const [lastName,setLastName] = useState('');
+    const [userName,setUserName] = useState('');
 
 
     const signIn = async () => {

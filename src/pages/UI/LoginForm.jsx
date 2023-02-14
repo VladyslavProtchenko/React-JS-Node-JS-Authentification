@@ -15,8 +15,8 @@ const LoginForm = () => {
         localStorage.clear()
     },[])
 
-    const [email,setEmail] = useState('vlad@mail.com');
-    const [password,setPassword] = useState('vlad');
+    const [email,setEmail] = useState('');
+    const [password,setPassword] = useState('');
 
     if(user.status === 'success') {
 
